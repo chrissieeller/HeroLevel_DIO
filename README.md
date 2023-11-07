@@ -41,3 +41,15 @@
         Exibir a mensagem: "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
 
 3.
+
+    Criar uma classe genérica que represente um herói de uma aventura que possua as seguintes propriedades: nome; idade; e tipo. Criar um método chamado "atacar" que atenda os seguintes requisitos: 
+        - exibir a mensagem: "o {tipo} atacou usando {ataque}"
+        - aonde o {tipo} deve ser concatenando o tipo que está na propriedade da classe
+        - e no {ataque} deve seguir uma descrição diferente conforme o tipo, seguindo a tabela abaixo:
+
+- mago: magia;
+- guerreiro: espada;
+- monge: artes marciais;
+- ninja: shuriken.
+
+        Exibir a mensagem: "O {tipo} atacou usando {ataque}"
